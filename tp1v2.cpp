@@ -158,7 +158,8 @@ while(archilec >> iclie >> iprod >> ipeso >> idist){
     distxprodclie[iclie][iprod] += idist; //PUNTO 2
     entregasxprod[iprod]++;
 }
-
+archilec.close();
+ 
 if(debug){
 mostrarmat(pesoxprodclie, dimclie);
 }
